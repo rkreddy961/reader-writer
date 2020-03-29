@@ -2,6 +2,7 @@
 #include<pthread.h>
 #include<stdlib.h>
 #include<unistd.h>
+#include<time.h>
 
 pthread_mutex_t mutex, WriterReaderTime;
 int sharedkey, rcount = 0;
