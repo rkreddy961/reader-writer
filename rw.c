@@ -62,7 +62,6 @@ void *reader(void *arg){
 void main(){
         printf("Enter the Initial value (INTEGER) of share variable: \n");
         scanf("%d", &sharedkey);
-        printf("=============================================\n");
         int numberReader, numberWriter, i;
         printf("no. of Readers?:\n");
         scanf("%d", &numberReader);
