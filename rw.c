@@ -133,6 +133,5 @@ void main(){
                         pthread_join(rdrs[i], NULL);
                 }
         }
-        printf("Thread Joined and the ");
-        printf("Final value of Shared variable = %d\n", sharedkey);
+        printf("Thread Joined and the Final value of Shared variable = %d\n", sharedkey");
 }
